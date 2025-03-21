@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu portfolio</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-slate-950 text-gray-200">
+    <header
+      class="mx-auto max-w-screen-lg px-3 py-6 flex items-center justify-between"
+    >
+      <!--logo-->
+      <div class="font-bold text-xl text-cyan-600">👨🏾‍💻Meu portifolio...</div>
+
+      <!--links-->
+      <div class="">
+        <ul class="flex gap-x-8 font-medium">
+          <li><a href="#Projetos" class="hover:underline">Projetos</a></li>
+          <li><a href="https://www.linkedin.com/in/lucas-oliveira-ladislau/" class="hover:underline">Linkedin</a></li>
+          <li><a href="https://github.com/LucsRafa" class="hover:underline">Github</a></li>
+          <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="hover:underline">Email</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-screen-lg min-h-20 px-3 py-6">
+      <!--hero-->
+      <section class="flex gap-x-3">
+        <!--descrição-->
+        <div class="w-2/3">
+          <h1 class="text-3xl font-bold">Olá me chamo Lucas Ladislau</h1>
+
+          <p class="text-xl leading-6 mt-6">
+            Sou desenvolvedor PHP com sólidos conhecimentos em HTML e CSS, além de experiência em outras linguagens como Java e Python. Atualmente, atuo na sustentação de sistemas do Porto, contribuindo para a manutenção, evolução e estabilidade das soluções utilizadas.
+
+Minhas principais atividades incluem:
+
+Desenvolvimento em PHP e manutenção de sistemas em Laravel;
+Utilização de Node.js para soluções específicas;
+Configuração e gerenciamento com XAMPP;
+Consultas e manutenção de bancos de dados MySQL;
+Containerização de aplicações com Docker;
+Controle de versão e colaboração com GitLab;
+Programação e revisão no Visual Studio Code;
+Consultas e manipulação de dados no DBeaver.
+          </p>
+
+          <ul class="flex gap-x-3 mt-3">
+            <!-- <li><a href="">
+                  <img class="h-8 hover:animate-bounce " src="./img/insta.png" alt="instagram logo">
+
+            </a></li> -->
+            <li><a href="https://www.linkedin.com/in/lucas-oliveira-ladislau/">
+                  <img class="h-8 hover:animate-bounce " src="./img/linkedin.png" alt="logo linkedin">
+
+            </a></li>
+            <li><a href="https://github.com/LucsRafa">
+              <img class="h-8 bg- hover:animate-bounce " src="./img/git.png" alt="Github youtube">
+            </a></li>
+          </ul>
+        </div>
+
+        <!--imagem-->
+        <div class="w-1/3 flex items-center justify-center">
+          <div>
+            
+            <img class="h-60  -mt-6 hover:animate-bounce" src="./img/eu.png" alt="Foto Lucas Ladislau">
+
+          </div>
+        </div>
+      </section>
+
+      <!--Projetos-->
+      <section class="space-y-3 py-6" id="Projetos">
+        <h2 class="text-2xl font-bold">Projetos Recentes</h2>
+
+        <!--Projeto-->
+        <div class="flex items-center bg-slate-800 rounded-lg p-3">
+          <div class="w-1/5 flex items-center justify-middle p-2 space-x-3">
+
+            <img class="h-30 rounded-md" src="./img/port.png" alt="Speaker Converter">
+
+          </div>
+          <div class="w-4/5 space-y-3 ">
+            <div class="flex gap-x-3 justify-between">
+              <h3 class="font-semibold text-xl"> ✅ Portfólio Lucas <span class="text-xs text-gray-400 opacity-50 italic">(Projeto finalizado em 2025)</span></h3>
+
+              <div>
+               
+                <span class="bg-fuchsia-400  text-fuchsia-900 rounded-md px-2 py-p1 font-semibold text-xs ">PHP</span>
+                <span class="bg-lime-400 text-lime-900 rounded-md px-2 py-p1 font-semibold text-xs ">HTML</span>
+                <span class="bg-sky-400  text-sky-900 rounded-md px-2 py-p1 font-semibold text-xs">CSS</span>
+                
+                
+              </div>
+            </div>
+            <p class="leading-6">Meu primeiro portfólio seguindo as aulas da rocketseat!</p>
+          </div>
+        </div>
+
+        <div class="flex items-center bg-slate-800 rounded-lg p-3">
+          <div class="w-1/5 flex items-center justify-middle p-2 space-x-3">
+
+            <img class="h-30 rounded-md" src="./img/Speaker.png" alt="Speaker Converter">
+
+          </div>
+          <div class="w-4/5 space-y-3 ">
+            <div class="flex gap-x-3 justify-between">
+              <h3 class="font-semibold text-xl"> ✅Speaker Converter <span class="text-xs text-gray-400 opacity-50 italic">(Projeto finalizado em 2024)</span></h3>
+
+              <div>
+               
+                <span class="bg-fuchsia-400  text-fuchsia-900 rounded-md px-2 py-p1 font-semibold text-xs ">Python</span>
+                <span class="bg-lime-400 text-lime-900 rounded-md px-2 py-p1 font-semibold text-xs ">Django</span>
+                <span class="bg-sky-400  text-sky-900 rounded-md px-2 py-p1 font-semibold text-xs">HTML</span>
+                <span class="bg-rose-400 text-rose-900 rounded-md px-2 py-p1 font-semibold text-xs">CSS</span>
+                <span class="bg-teal-400 text-teal-900 rounded-md px-2 py-p1 font-semibold text-xs">JavaScript</span>
+                
+              </div>
+            </div>
+            <p class="leading-6">Site desenvolvido no meu TCC, pra converter texto e imagens em audio.</p>
+          </div>
+        </div>
+
+        <div class="flex items-center bg-slate-800 rounded-lg p-3">
+          <div class="w-1/5 flex items-center justify-middle p-2 space-x-3">
+
+            <img class="h-30 rounded-md" src="./img/Libreasy_logo.jpg" alt="Speaker Converter">
+
+          </div>
+          <div class="w-4/5 space-y-3 ">
+            <div class="flex gap-x-3 justify-between">
+              <h3 class="font-semibold text-xl"> Libreasy <span class="text-xs text-gray-400 opacity-50 italic">(em andamento)</span></h3>
+
+              <div>
+               
+                <span class="bg-fuchsia-400  text-fuchsia-900 rounded-md px-2 py-p1 font-semibold text-xs ">Python</span>
+                <span class="bg-lime-400 text-lime-900 rounded-md px-2 py-p1 font-semibold text-xs ">Django</span>
+                <span class="bg-sky-400  text-sky-900 rounded-md px-2 py-p1 font-semibold text-xs">HTML</span>
+                <span class="bg-rose-400 text-rose-900 rounded-md px-2 py-p1 font-semibold text-xs">CSS</span>
+                <span class="bg-teal-400 text-teal-900 rounded-md px-2 py-p1 font-semibold text-xs">JavaScript</span>
+                
+              </div>
+            </div>
+            <p class="leading-6">Sistema de gerenciamneto de bliblioteca.</p>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
+
+    <footer class=" mx-auto max-w-screen-lg min-h-20 ">
+      
+      <div class="border-t  border-gray-400 pt-6 px-3 text-gray-400 text-sm">
+
+        ©Copyright 2025, desenvolvido por mim 👨🏾‍💻
+
+      </div>
+
+    
+     
+    </footer>
+  </body>
+</html>
