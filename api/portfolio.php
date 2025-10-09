@@ -91,6 +91,7 @@ $projects = [
             ['label' => 'PHP',     'icon' => 'pi pi-code'],
             ['label' => 'Laravel', 'icon' => 'pi pi-box'],
             ['label' => 'Vue',     'icon' => 'pi pi-desktop'],
+            ['label' => 'Tailwind','icon' => 'pi pi-palette'],
         ],
         'image'       => '/images/port.png',
     ],
@@ -106,6 +107,8 @@ $projects = [
             ['label' => 'PHP',     'icon' => 'pi pi-code'],
             ['label' => 'Laravel', 'icon' => 'pi pi-box'],
             ['label' => 'Vue',     'icon' => 'pi pi-desktop'],
+            ['label' => 'Bootstrap','icon' => 'pi pi-table'],
+            ['label' => 'JavaScript', 'icon' => 'pi pi-desktop'],
         ],
         'links'       => [
             ['label' => 'Produção', 'icon' => 'pi pi-external-link', 'href' => 'https://portaldocliente.portodesantos.com.br/login'],
