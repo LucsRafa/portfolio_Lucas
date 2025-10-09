@@ -196,7 +196,7 @@ $response = [
     'projects'      => $projects,
     'technologies'  => $technologies,
     'footer'        => [
-        'text' => sprintf('© Copyright %s, desenvolvido por mim 👨🏾‍💻', date('Y')),
+        'text' => sprintf('© Copyright %s, desenvolvido por Lucas Ladislau 👨🏾‍💻', date('Y')),
     ],
 ];
 
