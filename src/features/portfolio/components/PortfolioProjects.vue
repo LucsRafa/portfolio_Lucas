@@ -12,17 +12,24 @@
 
     <div class="flex flex-col gap-8">
       <article
-        v-for="project in projects"
+        v-for="(project, i) in projects"
         :key="project.id"
         v-animateonscroll="{ enterClass: 'animate-enter fade-up', leaveClass: 'animate-leave fade-up' }"
+        :style="{ '--a-delay': i * 90 + 'ms' }"
         class="flex flex-col gap-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-lg transition hover:border-primary/40 hover:shadow-glow md:flex-row dark:border-white/5 dark:bg-white/5 dark:backdrop-blur-sm"
       >
         <div class="md:w-1/3">
-          <div class="overflow-hidden rounded-xl">
+          <div
+            class="overflow-hidden rounded-xl"
+            v-parallax="{ speed: 24 }"
+          >
             <img :src="project.image" :alt="project.title" class="h-52 w-full object-cover transition duration-500 hover:scale-105" />
           </div>
         </div>
-        <div class="flex flex-1 flex-col justify-center gap-4">
+        <div
+          class="flex flex-1 flex-col justify-center gap-4"
+          v-parallax="{ speed: 12, reverse: true }"
+        >
           <div class="flex flex-col gap-2">
             <div class="flex flex-wrap items-center gap-2 text-sm text-slate-500 dark:text-slate-300/70">
               <span class="flex items-center gap-1">
@@ -73,4 +80,3 @@
     },
   });
 </script>
-

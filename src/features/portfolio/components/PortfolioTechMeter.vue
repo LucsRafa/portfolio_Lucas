@@ -12,9 +12,11 @@
       <MeterGroup :value="technologies || []" class="mb-6" />
       <ul class="grid gap-3 md:grid-cols-2">
         <li
-          v-for="tech in technologies || []"
+          v-for="(tech, i) in technologies || []"
           :key="tech.label"
           v-animateonscroll="{ enterClass: 'animate-enter fade-up', leaveClass: 'animate-leave fade-up' }"
+          :style="{ '--a-delay': i * 70 + 'ms' }"
+          v-parallax="{ speed: 8, reverse: i % 2 === 0 }"
           class="flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-3 dark:border-white/5 dark:bg-white/5"
         >
           <div class="flex items-center gap-3">
@@ -41,4 +43,3 @@
     },
   });
 </script>
-
