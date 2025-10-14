@@ -1,10 +1,10 @@
 ﻿# Portfólio — Lucas Ladislau
 
-Este projeto é o meu portfólio: uma SPA em Vue 3 + PrimeVue e Tailwind, consumindo um endpoint PHP. Aqui apresento quem eu sou, minhas tecnologias e os projetos em que atuei.
+Este projeto é o meu portfólio: Em Vue 3 + PrimeVue e Tailwind, consumindo um endpoint PHP. Aqui apresento quem eu sou, minhas tecnologias e os projetos em que atuei.
 
 ## Destaques
 
-- Efeitos de entrada com `AnimateOnScroll` do PrimeVue.
+- Efeitos de entrada com o PrimeVue.
 - Chips e ícones (PrimeIcons) para navegação, redes e tags.
 - Toolkit principal com `MeterGroup` exibindo minha distribuição tecnológica.
 - Conteúdo servido por `api/portfolio.php` (JSON simples de editar).
