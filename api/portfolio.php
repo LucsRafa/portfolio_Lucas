@@ -133,6 +133,29 @@ $projects = [
         ],
         'image'       => '/images/Speaker.png',
     ],
+    [
+        'id'          => 'clima-alertas',
+        'title'       => 'Clima-Alertas (API)',
+        'year'        => 2025,
+        'status'      => [
+            'label' => 'Open Source',
+            'icon'  => 'pi pi-github'
+        ],
+        'description' => 'API REST em Laravel para cadastro de cidades, favoritos, clima via OpenWeather, histórico em weather_logs e alertas por e-mail/Telegram (Jobs + Scheduler).',
+        'tags'        => [
+            ['label' => 'Laravel',    'icon' => 'pi pi-box'],
+            ['label' => 'Sanctum',    'icon' => 'pi pi-lock'],
+            ['label' => 'MySQL',      'icon' => 'pi pi-database'],
+            ['label' => 'Redis',      'icon' => 'pi pi-server'],
+            ['label' => 'Docker',     'icon' => 'pi pi-box'],
+            ['label' => 'OpenWeather','icon' => 'pi pi-cloud'],
+        ],
+        'links'       => [
+            ['label' => 'Repositório', 'icon' => 'pi pi-github', 'href' => 'https://github.com/LucsRafa/clima-alertas'],
+            ['label' => 'README',      'icon' => 'pi pi-book',   'href' => 'https://github.com/LucsRafa/clima-alertas#readme'],
+        ],
+        'image'       => '/images/ClimaTempo.png',
+    ],
 ];
 
 $technologies = [
