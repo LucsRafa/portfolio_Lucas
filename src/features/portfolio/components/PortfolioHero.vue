@@ -28,7 +28,7 @@
       </ul>
       <!-- Social buttons section removed by request to keep only header buttons -->
     </div>
-    <div class="flex w-full justify-center md:w-1/3">
+    <div class="order-first flex w-full justify-center md:order-none md:w-1/3 md:self-start">
       <div
         class="relative h-64 w-64 overflow-hidden rounded-full border border-primary/40 shadow-glow"
         v-parallax="{ speed: 36 }"
